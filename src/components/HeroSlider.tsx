@@ -49,7 +49,7 @@ export default function HeroSlider() {
   }, [isAutoPlaying, nextSlide]);
 
   return (
-    <section className="relative h-screen min-h-[600px] max-h-[1000px] overflow-hidden">
+    <section className="relative h-[60vh] min-h-[400px] md:h-screen md:min-h-[600px] md:max-h-[1000px] overflow-hidden">
       {/* Slides */}
       {slides.map((slide, index) => (
         <div
@@ -135,10 +135,10 @@ export default function HeroSlider() {
           setIsAutoPlaying(false);
           setTimeout(() => setIsAutoPlaying(true), 8000);
         }}
-        className="absolute left-6 md:left-10 top-1/2 -translate-y-1/2 z-30 w-14 h-14 md:w-16 md:h-16 bg-white/20 hover:bg-white/40 rounded-full flex items-center justify-center text-white transition-all duration-300 backdrop-blur-sm hover:scale-110"
+        className="absolute left-4 md:left-10 top-1/2 -translate-y-1/2 z-30 w-8 h-8 md:w-16 md:h-16 bg-white/20 hover:bg-white/40 rounded-full flex items-center justify-center text-white transition-all duration-300 backdrop-blur-sm hover:scale-110"
         aria-label="前のスライド"
       >
-        <svg className="w-7 h-7 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-4 h-4 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
       </button>
@@ -148,10 +148,10 @@ export default function HeroSlider() {
           setIsAutoPlaying(false);
           setTimeout(() => setIsAutoPlaying(true), 8000);
         }}
-        className="absolute right-6 md:right-10 top-1/2 -translate-y-1/2 z-30 w-14 h-14 md:w-16 md:h-16 bg-white/20 hover:bg-white/40 rounded-full flex items-center justify-center text-white transition-all duration-300 backdrop-blur-sm hover:scale-110"
+        className="absolute right-4 md:right-10 top-1/2 -translate-y-1/2 z-30 w-8 h-8 md:w-16 md:h-16 bg-white/20 hover:bg-white/40 rounded-full flex items-center justify-center text-white transition-all duration-300 backdrop-blur-sm hover:scale-110"
         aria-label="次のスライド"
       >
-        <svg className="w-7 h-7 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-4 h-4 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
       </button>
