@@ -81,7 +81,7 @@ export default function PublicLayout({
                 className="block py-2 hover:text-[var(--primary-color)] transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                園について
+                SKY KIDSについて
               </Link>
               <Link
                 href="/news"

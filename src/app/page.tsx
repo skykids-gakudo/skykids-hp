@@ -89,10 +89,10 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* SKY KIDSの紹介 */}
+      {/* 施設の紹介 */}
       <section id="intro" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-center mb-10">SKY KIDSの紹介</h2>
+          <h2 className="text-2xl font-bold text-center mb-10">施設の紹介</h2>
 
           <div className="text-base leading-[1.7] text-gray-700 mb-10">
             <p className="mb-4">
