@@ -79,7 +79,7 @@ export default async function HomePage() {
           </div>
 
           {/* Skykids Line Illustration */}
-          <div className="overflow-hidden flex justify-center mt-12">
+          <div className="overflow-hidden flex justify-center mt-6">
             <img
               src="/images/skykids_yellowline.png"
               alt=""
