@@ -81,7 +81,7 @@ export default async function HomePage() {
       </section>
 
       {/* Skykids Line Illustration */}
-      <div className="w-full overflow-hidden flex justify-center">
+      <div className="w-full overflow-hidden flex justify-center bg-[var(--accent-color)] -mt-8">
         <img
           src="/images/skykids_yellowline.png"
           alt=""
