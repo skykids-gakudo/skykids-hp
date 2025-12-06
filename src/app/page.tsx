@@ -81,12 +81,14 @@ export default async function HomePage() {
       </section>
 
       {/* Skykids Line Illustration */}
-      <div className="w-full overflow-hidden flex justify-center bg-[var(--accent-color)] -mt-8">
-        <img
-          src="/images/skykids_yellowline.png"
-          alt=""
-          className="w-[300%] max-w-none h-auto"
-        />
+      <div className="w-full bg-[var(--accent-color)] pt-12 pb-8">
+        <div className="overflow-hidden flex justify-center">
+          <img
+            src="/images/skykids_yellowline.png"
+            alt=""
+            className="w-[300%] max-w-none h-auto"
+          />
+        </div>
       </div>
 
       {/* SKY KIDSの紹介 */}
