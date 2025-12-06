@@ -56,7 +56,7 @@ export default async function HomePage() {
       </section>
 
       {/* お知らせ */}
-      <section id="news" className="py-16 bg-[var(--accent-color)]">
+      <section id="news" className="pt-16 pb-8 bg-[var(--accent-color)]">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-center mb-10">お知らせ</h2>
           <div className="space-y-4 mb-8">
