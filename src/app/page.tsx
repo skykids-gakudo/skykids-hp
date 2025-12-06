@@ -116,7 +116,7 @@ export default async function HomePage() {
               保育室
             </div>
             <div className="bg-gray-200 aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm col-span-2 md:col-span-1">
-              園庭
+              園
             </div>
             <div className="hidden md:flex bg-gray-200 aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] items-center justify-center text-gray-500 text-sm">
               給食室
@@ -147,19 +147,35 @@ export default async function HomePage() {
               <div className="bg-gray-200 aspect-[3/2] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm mb-3 group-hover:shadow-lg transition-shadow">
                 600×400
               </div>
-              <p className="text-center text-base font-medium">給食</p>
+              <p className="text-center text-base font-medium">生活3</p>
             </div>
           </div>
 
-          <div className="text-center">
-            <a
-              href="https://drive.google.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary inline-block"
-            >
-              もっと写真を見る
-            </a>
+        </div>
+      </section>
+
+      {/* 給食のご紹介 */}
+      <section id="meals" className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-2xl font-bold text-center mb-10">給食のご紹介</h2>
+          <div className="relative">
+            <div className="flex overflow-x-auto gap-4 pb-4 snap-x snap-mandatory scrollbar-hide">
+              <div className="flex-shrink-0 w-[80%] md:w-[calc(33.333%-1rem)] snap-center">
+                <div className="bg-gray-200 aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm">
+                  給食1
+                </div>
+              </div>
+              <div className="flex-shrink-0 w-[80%] md:w-[calc(33.333%-1rem)] snap-center">
+                <div className="bg-gray-200 aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm">
+                  給食2
+                </div>
+              </div>
+              <div className="flex-shrink-0 w-[80%] md:w-[calc(33.333%-1rem)] snap-center">
+                <div className="bg-gray-200 aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm">
+                  給食3
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
