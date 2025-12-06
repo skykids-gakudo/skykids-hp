@@ -8,7 +8,7 @@ const GITHUB_BRANCH = process.env.GITHUB_BRANCH || 'main';
 async function fetchFromGitHub<T>(path: string): Promise<T> {
   const url = `https://raw.githubusercontent.com/${GITHUB_OWNER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${path}`;
   const response = await fetch(url, {
-    next: { revalidate: 60 },
+    cache: 'no-store',
   });
 
   if (!response.ok) {

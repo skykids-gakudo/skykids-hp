@@ -83,7 +83,7 @@ export default async function HomePage() {
             <img
               src="/images/skykids_yellowline.png"
               alt=""
-              className="w-[300%] max-w-none h-auto translate-x-5"
+              className="w-[300%] max-w-none h-auto translate-x-7"
             />
           </div>
         </div>
@@ -135,13 +135,13 @@ export default async function HomePage() {
               <div className="bg-gray-200 aspect-[3/2] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm mb-3 group-hover:shadow-lg transition-shadow">
                 600×400
               </div>
-              <p className="text-center text-base font-medium">園庭</p>
+              <p className="text-center text-base font-medium">生活1</p>
             </div>
             <div className="group">
               <div className="bg-gray-200 aspect-[3/2] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm mb-3 group-hover:shadow-lg transition-shadow">
                 600×400
               </div>
-              <p className="text-center text-base font-medium">保育室</p>
+              <p className="text-center text-base font-medium">生活2</p>
             </div>
             <div className="group">
               <div className="bg-gray-200 aspect-[3/2] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm mb-3 group-hover:shadow-lg transition-shadow">

@@ -1,11 +1,13 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 
 export default function AdminHeader() {
   const router = useRouter();
   const pathname = usePathname();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleLogout = async () => {
     try {
@@ -55,19 +57,69 @@ export default function AdminHeader() {
             <a
               href="/"
               target="_blank"
-              className="text-sm text-gray-500 hover:text-[var(--primary-color)]"
+              className="hidden md:block text-sm text-gray-500 hover:text-[var(--primary-color)]"
             >
               サイトを表示
             </a>
             <button
               onClick={handleLogout}
-              className="px-4 py-2 text-sm text-gray-600 hover:text-red-600 transition-colors"
+              className="hidden md:block px-4 py-2 text-sm text-gray-600 hover:text-red-600 transition-colors"
             >
               ログアウト
+            </button>
+
+            {/* Mobile menu button */}
+            <button
+              className="md:hidden p-2"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {isMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                )}
+              </svg>
             </button>
           </div>
         </div>
       </div>
+
+      {/* Mobile menu */}
+      {isMenuOpen && (
+        <nav className="md:hidden bg-white border-t">
+          <div className="px-4 py-4 space-y-2">
+            {navItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setIsMenuOpen(false)}
+                className={`block px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  pathname === item.href
+                    ? 'bg-[var(--primary-color)] text-white'
+                    : 'text-gray-600 hover:bg-gray-100'
+                }`}
+              >
+                {item.label}
+              </Link>
+            ))}
+            <hr className="my-2" />
+            <a
+              href="/"
+              target="_blank"
+              className="block px-4 py-2 text-sm text-gray-500 hover:text-[var(--primary-color)]"
+            >
+              サイトを表示
+            </a>
+            <button
+              onClick={handleLogout}
+              className="block w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50 rounded-lg"
+            >
+              ログアウト
+            </button>
+          </div>
+        </nav>
+      )}
     </header>
   );
 }
