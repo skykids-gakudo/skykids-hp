@@ -85,11 +85,6 @@ export default function HeroSlider() {
 
           {/* Dark overlay for text readability */}
           <div className="absolute inset-0 bg-black/10" />
-
-          {/* Dummy image label */}
-          <div className="absolute top-24 right-6 bg-black/40 text-white text-xs px-3 py-1.5 rounded-full backdrop-blur-sm z-20">
-            ダミー画像 {slide.id}
-          </div>
         </div>
       ))}
 
