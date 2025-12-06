@@ -83,7 +83,7 @@ export default async function HomePage() {
             <img
               src="/images/skykids_yellowline.png"
               alt=""
-              className="w-[300%] max-w-none h-auto translate-x-4"
+              className="w-[300%] max-w-none h-auto translate-x-5"
             />
           </div>
         </div>
