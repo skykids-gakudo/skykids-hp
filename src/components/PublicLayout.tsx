@@ -64,7 +64,7 @@ export default function PublicLayout({
         href="https://forms.google.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 bg-[var(--primary-color)] text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-[var(--primary-dark)] transition-colors z-50"
+        className="fixed bottom-6 right-6 bg-[#D4A5A5] text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-[#C08080] transition-colors z-50"
       >
         見学申込み
       </a>
