@@ -357,7 +357,26 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 11. アクセス */}
+      {/* 11. 見学申込み */}
+      <section id="tour" className="py-16 bg-[var(--accent-color)]">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">見学申込み</h2>
+          <p className="text-gray-700 mb-8 text-base">
+            見学は随時受け付けております。<br />
+            お気軽にお申し込みください。
+          </p>
+          <a
+            href="https://forms.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block w-[90%] max-w-md bg-[var(--primary-color)] text-white font-bold py-4 rounded-full text-lg hover:bg-[var(--primary-dark)] transition-colors shadow-lg"
+          >
+            見学を申し込む
+          </a>
+        </div>
+      </section>
+
+      {/* 12. アクセス */}
       <section id="access" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-center mb-10">アクセス</h2>
@@ -397,25 +416,6 @@ export default async function HomePage() {
               </dl>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* 12. 見学申込み */}
-      <section id="tour" className="py-16 bg-[var(--primary-color)]">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold text-white mb-4">見学申込み</h2>
-          <p className="text-white mb-8 text-base">
-            見学は随時受け付けております。<br />
-            お気軽にお申し込みください。
-          </p>
-          <a
-            href="https://forms.google.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block w-[90%] max-w-md bg-white text-[var(--primary-dark)] font-bold py-4 rounded-full text-lg hover:bg-[var(--accent-color)] transition-colors shadow-lg"
-          >
-            見学を申し込む
-          </a>
         </div>
       </section>
     </PublicLayout>
