@@ -43,21 +43,21 @@ export default function ContactPage() {
             </p>
           </article>
 
-          {/* Google Form */}
-          <div className="bg-white border rounded-lg overflow-hidden hover:shadow-md transition-shadow">
-            <div className="bg-[var(--primary-color)] text-white py-3 px-4 text-center">
-              <p className="font-bold">フォームからのお問い合わせ</p>
-            </div>
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdjMbznJ6oPyulEHHs92ZslfFip8T--3h4BuOqm2UFdeI3uwQ/viewform?embedded=true"
-              width="100%"
-              height="2536"
-              frameBorder="0"
-              className="w-full"
+          {/* Google Form ボタン */}
+          <article className="bg-white border rounded-lg p-6 text-center hover:shadow-md transition-shadow">
+            <p className="text-gray-600 text-sm mb-4">フォームからのお問い合わせ</p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdjMbznJ6oPyulEHHs92ZslfFip8T--3h4BuOqm2UFdeI3uwQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block w-full max-w-md bg-[var(--primary-color)] text-white font-bold py-4 rounded-full text-lg hover:bg-[var(--primary-dark)] transition-colors shadow-lg"
             >
-              読み込んでいます…
-            </iframe>
-          </div>
+              お問い合わせフォームへ
+            </a>
+            <p className="text-gray-500 text-sm mt-4">
+              ※ 別ウィンドウでGoogleフォームが開きます
+            </p>
+          </article>
 
           <div className="mt-12 text-center">
             <Link
