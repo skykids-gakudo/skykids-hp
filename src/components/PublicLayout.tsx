@@ -42,7 +42,7 @@ export default function PublicLayout({
                 アクセス
               </Link>
               <Link
-                href="/#contact"
+                href="/contact"
                 className="btn-primary text-sm"
               >
                 お問い合わせ
@@ -112,7 +112,7 @@ export default function PublicLayout({
                 アクセス
               </Link>
               <Link
-                href="/#contact"
+                href="/contact"
                 className="block py-2 text-[var(--primary-color)] font-bold"
                 onClick={() => setIsMenuOpen(false)}
               >

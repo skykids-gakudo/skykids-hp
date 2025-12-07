@@ -372,25 +372,7 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 12. お問い合わせ */}
-      <section id="contact" className="py-16 bg-[var(--accent-color)]">
-        <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-center mb-8">お問い合わせ</h2>
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdjMbznJ6oPyulEHHs92ZslfFip8T--3h4BuOqm2UFdeI3uwQ/viewform?embedded=true"
-              width="100%"
-              height="2536"
-              frameBorder="0"
-              className="w-full"
-            >
-              読み込んでいます…
-            </iframe>
-          </div>
-        </div>
-      </section>
-
-      {/* 13. アクセス */}
+      {/* 12. アクセス */}
       <section id="access" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-center mb-10">アクセス</h2>
