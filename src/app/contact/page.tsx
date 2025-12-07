@@ -54,9 +54,6 @@ export default function ContactPage() {
             >
               お問い合わせフォームへ
             </a>
-            <p className="text-gray-500 text-sm mt-4">
-              ※ 別ウィンドウでGoogleフォームが開きます
-            </p>
           </article>
 
           <div className="mt-12 text-center">
