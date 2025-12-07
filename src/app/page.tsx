@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { getNews, getStaff, getSettings } from '@/lib/dataFetcher';
 import PublicLayout from '@/components/PublicLayout';
 import HeroSlider from '@/components/HeroSlider';
-import FAQSection from '@/components/FAQSection';
+import FAQPreview from '@/components/FAQPreview';
 import MealsCarousel from '@/components/MealsCarousel';
 
 export default async function HomePage() {
@@ -349,7 +349,7 @@ export default async function HomePage() {
       <section id="faq" className="py-16 bg-gray-50">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-2xl font-bold text-center mb-10">よくあるご質問</h2>
-          <FAQSection />
+          <FAQPreview />
         </div>
       </section>
 

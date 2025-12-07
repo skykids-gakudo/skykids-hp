@@ -98,7 +98,7 @@ export default function PublicLayout({
                 スタッフ紹介
               </Link>
               <Link
-                href="/#faq"
+                href="/faq"
                 className="block py-2 hover:text-[var(--primary-color)] transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
