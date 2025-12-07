@@ -270,10 +270,9 @@ export default async function HomePage() {
               <div>
                 <h3 className="font-bold text-lg text-pink-500 mb-2">春（4月〜6月）</h3>
                 <ul className="text-base text-gray-700 space-y-1">
-                  <li>・入園式・進級式</li>
-                  <li>・こどもの日の会</li>
-                  <li>・親子遠足</li>
-                  <li>・健康診断</li>
+                  <li>・新年度スタート</li>
+                  <li>・こどもの日イベント</li>
+                  <li>・野菜の苗植え（食育）</li>
                 </ul>
               </div>
             </div>
@@ -285,9 +284,9 @@ export default async function HomePage() {
                 <h3 className="font-bold text-lg text-yellow-500 mb-2">夏（7月〜9月）</h3>
                 <ul className="text-base text-gray-700 space-y-1">
                   <li>・七夕会</li>
-                  <li>・プール遊び・水遊び</li>
-                  <li>・夏祭り</li>
-                  <li>・お泊まり保育</li>
+                  <li>・水遊び</li>
+                  <li>・夏休み特別プログラム</li>
+                  <li>・野菜の収穫</li>
                 </ul>
               </div>
             </div>
@@ -298,9 +297,8 @@ export default async function HomePage() {
               <div>
                 <h3 className="font-bold text-lg text-orange-500 mb-2">秋（10月〜12月）</h3>
                 <ul className="text-base text-gray-700 space-y-1">
-                  <li>・運動会</li>
-                  <li>・ハロウィン</li>
-                  <li>・秋の遠足</li>
+                  <li>・ハロウィンイベント</li>
+                  <li>・公園遊び・秋の自然観察</li>
                   <li>・クリスマス会</li>
                 </ul>
               </div>
@@ -315,7 +313,7 @@ export default async function HomePage() {
                   <li>・お正月遊び</li>
                   <li>・節分・豆まき</li>
                   <li>・ひな祭り</li>
-                  <li>・卒園式</li>
+                  <li>・進級・卒業お祝い</li>
                 </ul>
               </div>
             </div>
