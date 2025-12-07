@@ -388,13 +388,13 @@ export default async function HomePage() {
                 <div className="flex gap-3">
                   <dt className="font-bold w-20 shrink-0">住所</dt>
                   <dd className="text-gray-700">
-                    〒899-4353<br />
-                    鹿児島県霧島市国分向花町8-48
+                    〒899-XXXX<br />
+                    鹿児島県霧島市国分○○町X-XX
                   </dd>
                 </div>
                 <div className="flex gap-3">
                   <dt className="font-bold w-20 shrink-0">電話</dt>
-                  <dd className="text-gray-700">0995-70-6623</dd>
+                  <dd className="text-gray-700">0995-XX-XXXX</dd>
                 </div>
                 <div className="flex gap-3">
                   <dt className="font-bold w-20 shrink-0">営業時間</dt>
@@ -409,7 +409,7 @@ export default async function HomePage() {
                 </div>
                 <div className="flex gap-3">
                   <dt className="font-bold w-20 shrink-0">アクセス</dt>
-                  <dd className="text-gray-700">向花五叉路（ファミリーマート）近く</dd>
+                  <dd className="text-gray-700">○○近く</dd>
                 </div>
               </dl>
             </div>
