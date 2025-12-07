@@ -131,11 +131,11 @@ export default function PublicLayout({
                 <div className="w-8 h-8 bg-[var(--primary-color)] rounded-full flex items-center justify-center">
                   <span className="text-white font-bold text-xs">SK</span>
                 </div>
-                <span className="font-bold text-base">SKY KIDS</span>
+                <span className="font-bold text-base">児童クラブ SKY KIDS</span>
               </div>
               <p className="text-xs text-gray-600">
-                子どもたち一人ひとりの個性を大切に、<br />
-                温かい保育を提供しています。
+                忙しいお母さんお父さんの<br />
+                子育てを応援します！
               </p>
             </div>
 
@@ -144,8 +144,8 @@ export default function PublicLayout({
               <h3 className="font-bold text-sm mb-3">メニュー</h3>
               <ul className="space-y-1 text-xs text-gray-600">
                 <li><Link href="/" className="hover:text-[var(--primary-color)]">ホーム</Link></li>
-                <li><Link href="/#about" className="hover:text-[var(--primary-color)]">園の紹介</Link></li>
-                <li><Link href="/#enrollment" className="hover:text-[var(--primary-color)]">入園案内</Link></li>
+                <li><Link href="/#about" className="hover:text-[var(--primary-color)]">SKY KIDSについて</Link></li>
+                <li><Link href="/#enrollment" className="hover:text-[var(--primary-color)]">入会案内</Link></li>
                 <li><Link href="/news" className="hover:text-[var(--primary-color)]">お知らせ</Link></li>
                 <li><Link href="/staff" className="hover:text-[var(--primary-color)]">スタッフ紹介</Link></li>
               </ul>
@@ -155,10 +155,10 @@ export default function PublicLayout({
             <div>
               <h3 className="font-bold text-sm mb-3">お問い合わせ</h3>
               <div className="text-xs text-gray-600 space-y-1">
-                <p>〒899-4332</p>
-                <p>鹿児島県霧島市国分中央1-2-3</p>
-                <p className="font-bold text-sm text-gray-800 mt-2">TEL: 0995-12-3456</p>
-                <p>受付時間: 9:00〜18:00（平日）</p>
+                <p>〒899-4353</p>
+                <p>鹿児島県霧島市国分向花町8-48</p>
+                <p className="font-bold text-sm text-gray-800 mt-2">TEL: 0995-70-6623</p>
+                <p>営業時間: 月〜金 11:00〜19:00 / 土 7:30〜19:00</p>
               </div>
             </div>
           </div>

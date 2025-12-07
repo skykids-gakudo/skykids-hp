@@ -23,32 +23,33 @@ export default async function HomePage() {
           <h2 className="text-2xl font-bold text-center mb-10">SKY KIDSについて</h2>
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div className="bg-gray-200 aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500">
-              園舎の写真
+              施設の写真
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4 text-[var(--primary-dark)]">
-                一人ひとりに寄り添う<br />
-                温かい保育
+                忙しいお母さんお父さんの<br />
+                子育てを応援！
               </h3>
               <p className="text-base leading-[1.7] text-gray-700 mb-4">
-                SKY KIDSは、少人数制の温かい環境で、お子様一人ひとりの個性を大切にした保育を行っています。
-                経験豊富なスタッフが、お子様の成長段階に合わせたきめ細やかなケアを提供します。
+                仕事をする上でどうしても子供を預けないといけない時ってありますよね。
+                実家に預けるにも毎日は難しかったり、預けにくかったり。
+                そんな体験から、安心してもっと気兼ねなく子どもを預けられるようになればと思い開所しました。
               </p>
               <p className="text-base leading-[1.7] text-gray-700 mb-6">
-                家庭的な雰囲気の中で、子どもたちが安心して過ごせる「第二のおうち」を目指しています。
+                小規模な学童保育だからこそ、アットホームな雰囲気の中でお子様一人一人の成長を見守り、学習支援を行っております。
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
                   <span className="w-7 h-7 bg-[var(--accent-color)] rounded-full flex items-center justify-center text-[var(--primary-dark)] text-sm">✓</span>
-                  <span className="text-base">定員12名の少人数制</span>
+                  <span className="text-base">児童クラブ・夜間保育対応</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-7 h-7 bg-[var(--accent-color)] rounded-full flex items-center justify-center text-[var(--primary-dark)] text-sm">✓</span>
-                  <span className="text-base">経験豊富な保育スタッフ</span>
+                  <span className="text-base">経験豊富な保育士・看護師在籍</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-7 h-7 bg-[var(--accent-color)] rounded-full flex items-center justify-center text-[var(--primary-dark)] text-sm">✓</span>
-                  <span className="text-base">安心の防犯・衛生管理</span>
+                  <span className="text-base">0歳から一時預かり可能</span>
                 </li>
               </ul>
             </div>
@@ -97,30 +98,30 @@ export default async function HomePage() {
 
           <div className="text-base leading-[1.7] text-gray-700 mb-10">
             <p className="mb-4">
-              SKY KIDSは、子どもたち一人ひとりの個性を大切にし、温かい家庭的な雰囲気の中で保育を行う小さな託児所です。
+              心配事や不安など、一人で悩まず何でも気軽に話して安心して預けられるように保護者に寄り添いお子様を全力でサポート致します。
             </p>
             <p className="mb-4">
-              少人数制だからこそできる、きめ細やかなケアと愛情あふれる保育で、お子様の健やかな成長をサポートいたします。
-              経験豊富なスタッフが、遊びや生活を通じて、子どもたちの「できた！」という喜びを一緒に分かち合います。
+              まず「宿題を終わらせること」を習慣づけられるようにサポートを行っております。
+              帰宅後に宿題をする負担が減り、保護者や子どもの時間を充実させることもできます。
             </p>
             <p>
-              保護者の皆様が安心してお子様を預けられる「第二のおうち」として、地域に根ざした保育を目指しています。
+              室内遊びだけでなく、お天気のいい日は公園に出かけます。室内遊びも充実していますよ！
             </p>
           </div>
 
           {/* 写真グリッド 2列×3枚 */}
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-gray-200 aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm">
-              園舎外観
+              施設外観
             </div>
             <div className="bg-gray-200 aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm">
-              保育室
+              学習スペース
             </div>
             <div className="bg-gray-200 aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] flex items-center justify-center text-gray-500 text-sm col-span-2 md:col-span-1">
-              園
+              遊びスペース
             </div>
             <div className="hidden md:flex bg-gray-200 aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] items-center justify-center text-gray-500 text-sm">
-              給食室
+              室内遊び
             </div>
           </div>
         </div>
@@ -163,20 +164,20 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 6. 入園案内（フロー＋料金表） */}
+      {/* 6. 入会案内（フロー＋料金表） */}
       <section id="enrollment" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-2xl font-bold text-center mb-10">入園案内</h2>
+          <h2 className="text-2xl font-bold text-center mb-10">入会案内</h2>
 
-          {/* 入園フロー */}
-          <h3 className="text-lg font-bold mb-6 text-center">ご入園までの流れ</h3>
+          {/* 入会フロー */}
+          <h3 className="text-lg font-bold mb-6 text-center">ご入会までの流れ</h3>
           <div className="flex overflow-x-auto gap-4 pb-4 mb-12">
             {[
               { step: 1, icon: '📞', title: 'お問い合わせ', desc: 'お電話またはフォームから' },
-              { step: 2, icon: '🏠', title: '見学', desc: '園内をご案内します' },
+              { step: 2, icon: '🏠', title: '見学', desc: '施設内をご案内します' },
               { step: 3, icon: '📝', title: '申込み', desc: '必要書類をご提出' },
               { step: 4, icon: '🤝', title: '面談', desc: 'お子様について伺います' },
-              { step: 5, icon: '🎉', title: '入園', desc: 'ようこそSKY KIDSへ!' },
+              { step: 5, icon: '🎉', title: '入会', desc: 'ようこそSKY KIDSへ!' },
             ].map((item) => (
               <div
                 key={item.step}
@@ -195,11 +196,9 @@ export default async function HomePage() {
           <div className="max-w-lg mx-auto">
             <div className="border-2 border-[var(--primary-color)] rounded-2xl overflow-hidden">
               {[
-                { label: '入園料', value: settings.pricing.enrollmentFee },
-                { label: '月額保育料（0〜2歳）', value: settings.pricing.monthlyFee0to2 },
-                { label: '月額保育料（3〜5歳）', value: settings.pricing.monthlyFee3to5 },
-                { label: '給食費', value: settings.pricing.mealFee },
-                { label: '延長保育', value: settings.pricing.extendedCare },
+                { label: '入会金', value: settings.pricing.enrollmentFee },
+                { label: '月額利用料', value: settings.pricing.monthlyFee0to2 },
+                { label: '延長料金', value: settings.pricing.extendedCare },
               ].map((item, index) => (
                 <div
                   key={item.label}
@@ -213,7 +212,7 @@ export default async function HomePage() {
               ))}
             </div>
             <p className="text-sm text-gray-500 mt-4 text-center">
-              ※料金は税込みです。詳細はお問い合わせください。
+              ※1人親世帯割引、兄弟・姉妹割引あり。詳細はお問い合わせください。
             </p>
           </div>
         </div>
@@ -384,33 +383,33 @@ export default async function HomePage() {
               Google Map 埋め込み
             </div>
             <div className="text-base leading-[1.7]">
-              <h3 className="font-bold text-lg mb-4">SKY KIDS</h3>
+              <h3 className="font-bold text-lg mb-4">児童クラブ SKY KIDS</h3>
               <dl className="space-y-3">
                 <div className="flex gap-3">
                   <dt className="font-bold w-20 shrink-0">住所</dt>
                   <dd className="text-gray-700">
-                    〒899-4332<br />
-                    鹿児島県霧島市国分中央1-2-3
+                    〒899-4353<br />
+                    鹿児島県霧島市国分向花町8-48
                   </dd>
                 </div>
                 <div className="flex gap-3">
                   <dt className="font-bold w-20 shrink-0">電話</dt>
-                  <dd className="text-gray-700">0995-12-3456</dd>
+                  <dd className="text-gray-700">0995-70-6623</dd>
                 </div>
                 <div className="flex gap-3">
-                  <dt className="font-bold w-20 shrink-0">保育時間</dt>
+                  <dt className="font-bold w-20 shrink-0">営業時間</dt>
                   <dd className="text-gray-700">
-                    月〜金 7:30〜19:00<br />
-                    土 8:00〜17:00
+                    月〜金 11:00〜19:00<br />
+                    土 7:30〜19:00
                   </dd>
                 </div>
                 <div className="flex gap-3">
-                  <dt className="font-bold w-20 shrink-0">休園日</dt>
-                  <dd className="text-gray-700">日曜・祝日・年末年始</dd>
+                  <dt className="font-bold w-20 shrink-0">定休日</dt>
+                  <dd className="text-gray-700">日曜日</dd>
                 </div>
                 <div className="flex gap-3">
                   <dt className="font-bold w-20 shrink-0">アクセス</dt>
-                  <dd className="text-gray-700">○○線「△△駅」徒歩5分</dd>
+                  <dd className="text-gray-700">向花五叉路（ファミリーマート）近く</dd>
                 </div>
               </dl>
             </div>

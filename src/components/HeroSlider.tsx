@@ -6,20 +6,20 @@ const slides = [
   {
     id: 1,
     bgColor: 'from-[#7FE7FF] via-[#00CFFF] to-[#0099CC]',
-    title: '笑顔あふれる\n毎日をここから',
-    subtitle: '子どもたち一人ひとりの輝く未来を育てます',
+    title: '忙しいパパママの\n子育てを応援！',
+    subtitle: '児童クラブ・夜間保育・一時預かり対応',
   },
   {
     id: 2,
     bgColor: 'from-[#FFD89B] via-[#FFB347] to-[#FF8C00]',
-    title: '安心・安全な\n保育環境',
-    subtitle: '少人数制で一人ひとりに寄り添います',
+    title: 'アットホームな\n学童保育',
+    subtitle: '宿題サポート・学習支援も充実',
   },
   {
     id: 3,
     bgColor: 'from-[#B8E6D8] via-[#98D8C8] to-[#4CAF50]',
-    title: '遊びから学ぶ\n豊かな心',
-    subtitle: '創造力と好奇心を大切に育みます',
+    title: '食育活動に\n力を入れています',
+    subtitle: '野菜を育て、苦手を克服！',
   },
 ];
 
