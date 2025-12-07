@@ -81,6 +81,20 @@ export default function PublicLayout({
                 SKY KIDSについて
               </Link>
               <Link
+                href="/recruit"
+                className="block py-2 hover:text-[var(--primary-color)] transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                児童募集
+              </Link>
+              <Link
+                href="/schedule"
+                className="block py-2 hover:text-[var(--primary-color)] transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                一日の流れ
+              </Link>
+              <Link
                 href="/news"
                 className="block py-2 hover:text-[var(--primary-color)] transition-colors"
                 onClick={() => setIsMenuOpen(false)}
@@ -142,7 +156,8 @@ export default function PublicLayout({
               <ul className="space-y-1 text-xs text-gray-600">
                 <li><Link href="/" className="hover:text-[var(--primary-color)]">ホーム</Link></li>
                 <li><Link href="/#about" className="hover:text-[var(--primary-color)]">SKY KIDSについて</Link></li>
-                <li><Link href="/#enrollment" className="hover:text-[var(--primary-color)]">入会案内</Link></li>
+                <li><Link href="/recruit" className="hover:text-[var(--primary-color)]">児童募集</Link></li>
+                <li><Link href="/schedule" className="hover:text-[var(--primary-color)]">一日の流れ</Link></li>
                 <li><Link href="/news" className="hover:text-[var(--primary-color)]">お知らせ</Link></li>
               </ul>
             </div>
