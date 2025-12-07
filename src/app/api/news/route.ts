@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getSession } from '@/lib/auth';
+import { validateCsrfToken } from '@/lib/csrf';
 import { getFileContent, updateFile } from '@/lib/githubClient';
 import type { NewsItem } from '@/types';
 
@@ -9,6 +10,14 @@ async function requireAuth() {
   const session = await getSession();
   if (!session || session.sub !== 'admin') {
     return NextResponse.json({ error: '認証が必要です' }, { status: 401 });
+  }
+  return null;
+}
+
+async function requireCsrf(request: NextRequest) {
+  const isValid = await validateCsrfToken(request);
+  if (!isValid) {
+    return NextResponse.json({ error: 'CSRFトークンが無効です' }, { status: 403 });
   }
   return null;
 }
@@ -51,6 +60,9 @@ export async function POST(request: NextRequest) {
   const authError = await requireAuth();
   if (authError) return authError;
 
+  const csrfError = await requireCsrf(request);
+  if (csrfError) return csrfError;
+
   try {
     const data = await request.json();
     const validation = validateNewsItem(data);
@@ -88,6 +100,9 @@ export async function POST(request: NextRequest) {
 export async function PUT(request: NextRequest) {
   const authError = await requireAuth();
   if (authError) return authError;
+
+  const csrfError = await requireCsrf(request);
+  if (csrfError) return csrfError;
 
   try {
     const data = await request.json();
@@ -137,6 +152,9 @@ export async function PUT(request: NextRequest) {
 export async function DELETE(request: NextRequest) {
   const authError = await requireAuth();
   if (authError) return authError;
+
+  const csrfError = await requireCsrf(request);
+  if (csrfError) return csrfError;
 
   try {
     const data = await request.json();

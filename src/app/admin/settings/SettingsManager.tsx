@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useCsrf } from '@/hooks/useCsrf';
 import type { Settings, AvailabilityClass } from '@/types';
 
 export default function SettingsManager() {
@@ -9,6 +10,7 @@ export default function SettingsManager() {
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
+  const { fetchWithCsrf } = useCsrf();
 
   const fetchSettings = async () => {
     try {
@@ -37,7 +39,7 @@ export default function SettingsManager() {
     setSuccess('');
 
     try {
-      const response = await fetch('/api/settings', {
+      const response = await fetchWithCsrf('/api/settings', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(settings),

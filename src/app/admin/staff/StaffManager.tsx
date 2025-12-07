@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
+import { useCsrf } from '@/hooks/useCsrf';
 import type { StaffMember } from '@/types';
 
 export default function StaffManager() {
@@ -10,6 +11,7 @@ export default function StaffManager() {
   const [error, setError] = useState('');
   const [editingItem, setEditingItem] = useState<StaffMember | null>(null);
   const [isCreating, setIsCreating] = useState(false);
+  const { csrfToken, fetchWithCsrf } = useCsrf();
 
   const fetchStaff = async () => {
     try {
@@ -33,7 +35,7 @@ export default function StaffManager() {
     if (!confirm('このスタッフを削除しますか？')) return;
 
     try {
-      const response = await fetch('/api/staff', {
+      const response = await fetchWithCsrf('/api/staff', {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id }),
@@ -78,6 +80,7 @@ export default function StaffManager() {
             fetchStaff();
           }}
           onError={setError}
+          csrfToken={csrfToken}
         />
       )}
 
@@ -146,11 +149,13 @@ function StaffForm({
   onClose,
   onSuccess,
   onError,
+  csrfToken,
 }: {
   item: StaffMember | null;
   onClose: () => void;
   onSuccess: () => void;
   onError: (error: string) => void;
+  csrfToken: string | null;
 }) {
   const [name, setName] = useState(item?.name || '');
   const [years, setYears] = useState(item?.years?.toString() || '0');
@@ -229,8 +234,14 @@ function StaffForm({
       }
 
       const method = item ? 'PUT' : 'POST';
+      const headers: HeadersInit = {};
+      if (csrfToken) {
+        headers['x-csrf-token'] = csrfToken;
+      }
+
       const response = await fetch('/api/staff', {
         method,
+        headers,
         body: formData,
       });
 

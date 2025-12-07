@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useCsrf } from '@/hooks/useCsrf';
 import type { NewsItem } from '@/types';
 
 export default function NewsManager() {
@@ -9,6 +10,7 @@ export default function NewsManager() {
   const [error, setError] = useState('');
   const [editingItem, setEditingItem] = useState<NewsItem | null>(null);
   const [isCreating, setIsCreating] = useState(false);
+  const { fetchWithCsrf } = useCsrf();
 
   const fetchNews = async () => {
     try {
@@ -32,7 +34,7 @@ export default function NewsManager() {
     if (!confirm('このお知らせを削除しますか？')) return;
 
     try {
-      const response = await fetch('/api/news', {
+      const response = await fetchWithCsrf('/api/news', {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id }),
@@ -77,6 +79,7 @@ export default function NewsManager() {
             fetchNews();
           }}
           onError={setError}
+          fetchWithCsrf={fetchWithCsrf}
         />
       )}
 
@@ -140,11 +143,13 @@ function NewsForm({
   onClose,
   onSuccess,
   onError,
+  fetchWithCsrf,
 }: {
   item: NewsItem | null;
   onClose: () => void;
   onSuccess: () => void;
   onError: (error: string) => void;
+  fetchWithCsrf: (url: string, options?: RequestInit) => Promise<Response>;
 }) {
   const [date, setDate] = useState(item?.date || new Date().toISOString().split('T')[0]);
   const [title, setTitle] = useState(item?.title || '');
@@ -182,7 +187,7 @@ function NewsForm({
         ? { id: item.id, date, title, body }
         : { date, title, body };
 
-      const response = await fetch('/api/news', {
+      const response = await fetchWithCsrf('/api/news', {
         method,
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
