@@ -31,17 +31,23 @@ export default function PublicLayout({
           <div className="flex items-center gap-8 pr-4">
 
             {/* Navigation */}
-            <nav className="hidden md:flex items-center gap-8">
-              <Link href="/" className="hover:text-[var(--primary-color)] transition-colors">
-                ホーム
+            <nav className="hidden md:flex items-center gap-6">
+              <Link href="/recruit" className="hover:text-[var(--primary-color)] transition-colors text-sm">
+                児童募集
               </Link>
-              <Link href="/#about" className="hover:text-[var(--primary-color)] transition-colors">
-                園について
+              <Link href="/schedule" className="hover:text-[var(--primary-color)] transition-colors text-sm">
+                一日の流れ
               </Link>
-              <Link href="/news" className="hover:text-[var(--primary-color)] transition-colors">
+              <Link href="/news" className="hover:text-[var(--primary-color)] transition-colors text-sm">
                 お知らせ
               </Link>
-              <Link href="/#access" className="hover:text-[var(--primary-color)] transition-colors">
+              <Link href="/faq" className="hover:text-[var(--primary-color)] transition-colors text-sm">
+                よくある質問
+              </Link>
+              <Link href="/documents" className="hover:text-[var(--primary-color)] transition-colors text-sm">
+                書類
+              </Link>
+              <Link href="/#access" className="hover:text-[var(--primary-color)] transition-colors text-sm">
                 アクセス
               </Link>
               <Link
