@@ -122,6 +122,13 @@ export default function PublicLayout({
                 アクセス
               </Link>
               <Link
+                href="/documents"
+                className="block py-2 hover:text-[var(--primary-color)] transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                書類ダウンロード
+              </Link>
+              <Link
                 href="/contact"
                 className="block py-2 text-[var(--primary-color)] font-bold"
                 onClick={() => setIsMenuOpen(false)}
