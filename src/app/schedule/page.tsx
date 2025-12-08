@@ -8,7 +8,7 @@ export const metadata = {
 
 const weekdaySchedule = [
   { time: '下校時', activity: 'お迎え・来所', icon: '🏫', description: '学校までお迎えに行きます' },
-  { time: '〜15:30', activity: '自由時間', icon: '🎮', description: '宿題や自由遊び' },
+  { time: '〜15:30', activity: '自由時間', icon: '🎲', description: '宿題や自由遊び' },
   { time: '15:30', activity: 'おやつ', icon: '🍪', description: '手作りおやつをみんなで' },
   { time: '16:00', activity: '宿題タイム', icon: '📚', description: 'スタッフがサポートします' },
   { time: '17:00', activity: '自由遊び', icon: '⚽', description: '外遊びや室内遊び' },
