@@ -79,12 +79,12 @@ export default function HeroSlider() {
       {/* Now Enrolling Badge - Left Bottom */}
       <Link
         href="/recruit"
-        className="absolute bottom-6 left-6 z-30 hover:scale-105 transition-transform animate-float"
+        className="absolute bottom-2 left-2 z-30 hover:scale-105 transition-transform animate-float"
       >
         <img
           src="/images/now_enrolling.png"
           alt="児童募集中"
-          className="w-56 md:w-80 h-auto"
+          className="w-72 md:w-96 h-auto"
         />
       </Link>
 
