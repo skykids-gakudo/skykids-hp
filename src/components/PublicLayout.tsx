@@ -192,7 +192,7 @@ export default function PublicLayout({
             {/* SNS Icons */}
             <div className="flex gap-4">
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/skykids25"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 bg-gradient-to-tr from-[#F58529] via-[#DD2A7B] to-[#8134AF] rounded-lg flex items-center justify-center hover:opacity-80 transition-opacity"
@@ -210,7 +210,7 @@ export default function PublicLayout({
 
       {/* LINE Floating Button */}
       <a
-        href="https://line.me/R/"
+        href="https://lin.ee/I6BARCb"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#06C755] rounded-full flex items-center justify-center shadow-lg hover:bg-[#05b04c] transition-colors hover:scale-110 transition-transform"
