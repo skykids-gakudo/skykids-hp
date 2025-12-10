@@ -118,30 +118,77 @@ export default function RecruitPage() {
 
           {/* 入会の流れ */}
           <section className="bg-white border rounded-lg p-6 mb-6 hover:shadow-md transition-shadow">
-            <h2 className="text-xl font-bold text-[var(--primary-dark)] mb-4 flex items-center gap-2">
+            <h2 className="text-xl font-bold text-[var(--primary-dark)] mb-6 flex items-center gap-2">
               <span className="w-8 h-8 bg-[var(--accent-color)] rounded-full flex items-center justify-center text-sm">✨</span>
               入会までの流れ
             </h2>
-            <div className="flex flex-col md:flex-row gap-4">
-              {[
-                { step: 1, title: 'お問い合わせ', desc: 'お電話またはフォームから' },
-                { step: 2, title: '見学', desc: '施設をご案内します' },
-                { step: 3, title: '申込み', desc: '必要書類をご提出' },
-                { step: 4, title: '入会', desc: 'ようこそSKY KIDSへ!' },
-              ].map((item, index) => (
-                <div key={item.step} className="flex-1 text-center">
-                  <div className="w-12 h-12 mx-auto mb-2 bg-[var(--primary-color)] rounded-full flex items-center justify-center text-white font-bold">
-                    {item.step}
+            <div className="space-y-6">
+              {/* STEP 1 */}
+              <div className="flex gap-4">
+                <div className="flex flex-col items-center">
+                  <div className="w-12 h-12 bg-[var(--primary-color)] rounded-full flex items-center justify-center text-white font-bold text-lg shrink-0">
+                    1
                   </div>
-                  <p className="font-bold text-sm">{item.title}</p>
-                  <p className="text-xs text-gray-500">{item.desc}</p>
-                  {index < 3 && (
-                    <div className="hidden md:block absolute right-0 top-1/2 transform translate-x-1/2 -translate-y-1/2 text-gray-300">
-                      →
-                    </div>
-                  )}
+                  <div className="w-0.5 h-full bg-[var(--primary-light)] mt-2"></div>
                 </div>
-              ))}
+                <div className="flex-1 pb-4">
+                  <h3 className="font-bold text-lg mb-2">お問い合わせ</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    まずはお電話またはお問い合わせフォームからご連絡ください。<br />
+                    ご質問やご不明な点など、お気軽にお聞きください。見学のご予約もこちらから承ります。
+                  </p>
+                </div>
+              </div>
+
+              {/* STEP 2 */}
+              <div className="flex gap-4">
+                <div className="flex flex-col items-center">
+                  <div className="w-12 h-12 bg-[var(--primary-color)] rounded-full flex items-center justify-center text-white font-bold text-lg shrink-0">
+                    2
+                  </div>
+                  <div className="w-0.5 h-full bg-[var(--primary-light)] mt-2"></div>
+                </div>
+                <div className="flex-1 pb-4">
+                  <h3 className="font-bold text-lg mb-2">施設見学</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    実際に施設をご覧いただき、雰囲気や環境をご確認ください。<br />
+                    スタッフがご案内しながら、普段の様子や活動内容についてご説明いたします。お子様と一緒のご見学も大歓迎です。
+                  </p>
+                </div>
+              </div>
+
+              {/* STEP 3 */}
+              <div className="flex gap-4">
+                <div className="flex flex-col items-center">
+                  <div className="w-12 h-12 bg-[var(--primary-color)] rounded-full flex items-center justify-center text-white font-bold text-lg shrink-0">
+                    3
+                  </div>
+                  <div className="w-0.5 h-full bg-[var(--primary-light)] mt-2"></div>
+                </div>
+                <div className="flex-1 pb-4">
+                  <h3 className="font-bold text-lg mb-2">入会申込み</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    入会をご希望の場合は、必要書類をご提出ください。<br />
+                    入会申込書・重要事項説明書などの書類をご用意しております。ご不明な点はスタッフがサポートいたします。
+                  </p>
+                </div>
+              </div>
+
+              {/* STEP 4 */}
+              <div className="flex gap-4">
+                <div className="flex flex-col items-center">
+                  <div className="w-12 h-12 bg-[var(--primary-color)] rounded-full flex items-center justify-center text-white font-bold text-lg shrink-0">
+                    4
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-bold text-lg mb-2">入会・ご利用開始</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    手続き完了後、ご利用開始となります。<br />
+                    お子様が安心して過ごせるよう、スタッフ一同でサポートいたします。ようこそSKY KIDSへ！
+                  </p>
+                </div>
+              </div>
             </div>
           </section>
 
