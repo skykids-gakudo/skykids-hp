@@ -119,7 +119,7 @@ export default async function HomePage() {
             </p>
           </div>
 
-          {/* 写真グリッド 2列×3枚 */}
+          {/* 写真グリッド 2列 */}
           <div className="grid grid-cols-2 gap-4">
             <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
               <img src="/images/indoor_playground_01.jpg" alt="室内遊び場" className="w-full h-full object-cover" />
@@ -127,11 +127,8 @@ export default async function HomePage() {
             <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
               <img src="/images/desks.jpg" alt="学習スペース" className="w-full h-full object-cover" />
             </div>
-            <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden col-span-2 md:col-span-1">
+            <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden col-span-2">
               <img src="/images/children_playtime_06.png" alt="遊びの様子" className="w-full h-full object-cover object-bottom" />
-            </div>
-            <div className="hidden md:block aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
-              <img src="/images/children_playtime_01.jpg" alt="室内遊び" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
