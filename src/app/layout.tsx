@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "SKY KIDS | スカイキッズ",
-  description: "SKY KIDSは、子どもたち一人ひとりに寄り添う温かい保育を提供する小さな託児所です。",
+  description: "鹿児島県霧島市の児童クラブ SKY KIDS（スカイキッズ）。小学生を対象とした学童保育・一時預かりを行っています。忙しいお母さんお父さんの子育てを応援します。",
 };
 
 export default function RootLayout({
