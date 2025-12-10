@@ -148,12 +148,14 @@ export default function RecruitPage() {
           {/* CTA */}
           <div className="text-center mt-10">
             <p className="text-gray-600 mb-4">まずはお気軽にお問い合わせください</p>
-            <Link
-              href="/contact"
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdjMbznJ6oPyulEHHs92ZslfFip8T--3h4BuOqm2UFdeI3uwQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-[var(--primary-color)] text-white font-bold py-4 px-8 rounded-full text-lg hover:bg-[var(--primary-dark)] transition-colors shadow-lg"
             >
               お問い合わせはこちら
-            </Link>
+            </a>
           </div>
 
           <div className="mt-12 text-center">

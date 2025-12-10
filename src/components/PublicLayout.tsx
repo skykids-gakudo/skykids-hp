@@ -50,12 +50,14 @@ export default function PublicLayout({
               <Link href="/#access" className="hover:text-[var(--primary-color)] transition-colors text-sm">
                 アクセス
               </Link>
-              <Link
-                href="/contact"
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdjMbznJ6oPyulEHHs92ZslfFip8T--3h4BuOqm2UFdeI3uwQ/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary text-sm"
               >
                 お問い合わせ
-              </Link>
+              </a>
             </nav>
 
             {/* Mobile menu button */}
@@ -134,13 +136,15 @@ export default function PublicLayout({
               >
                 書類ダウンロード
               </Link>
-              <Link
-                href="/contact"
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdjMbznJ6oPyulEHHs92ZslfFip8T--3h4BuOqm2UFdeI3uwQ/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block py-2 text-[var(--primary-color)] font-bold"
                 onClick={() => setIsMenuOpen(false)}
               >
                 お問い合わせ
-              </Link>
+              </a>
             </div>
           </nav>
         )}
