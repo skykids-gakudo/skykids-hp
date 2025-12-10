@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SKY KIDS | 小さな託児所",
+  title: "SKY KIDS | スカイキッズ",
   description: "SKY KIDSは、子どもたち一人ひとりに寄り添う温かい保育を提供する小さな託児所です。",
 };
 
