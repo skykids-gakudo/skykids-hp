@@ -134,8 +134,8 @@ export default function RecruitPage() {
                 <div className="flex-1 pb-4">
                   <h3 className="font-bold text-lg mb-2">お問い合わせ</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    まずはお電話またはお問い合わせフォームからご連絡ください。<br />
-                    ご質問やご不明な点など、お気軽にお聞きください。見学のご予約もこちらから承ります。
+                    お電話またはフォームからご連絡ください。<br />
+                    見学のご予約もこちらから承ります。
                   </p>
                 </div>
               </div>
@@ -151,8 +151,8 @@ export default function RecruitPage() {
                 <div className="flex-1 pb-4">
                   <h3 className="font-bold text-lg mb-2">施設見学</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    実際に施設をご覧いただき、雰囲気や環境をご確認ください。<br />
-                    スタッフがご案内しながら、普段の様子や活動内容についてご説明いたします。お子様と一緒のご見学も大歓迎です。
+                    実際に施設をご覧いただきます。<br />
+                    お子様と一緒のご見学も大歓迎です。
                   </p>
                 </div>
               </div>
@@ -169,7 +169,7 @@ export default function RecruitPage() {
                   <h3 className="font-bold text-lg mb-2">入会申込み</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     入会をご希望の場合は、必要書類をご提出ください。<br />
-                    入会申込書・重要事項説明書などの書類をご用意しております。ご不明な点はスタッフがサポートいたします。
+                    ご不明な点はスタッフがサポートいたします。
                   </p>
                 </div>
               </div>
@@ -184,8 +184,7 @@ export default function RecruitPage() {
                 <div className="flex-1">
                   <h3 className="font-bold text-lg mb-2">入会・ご利用開始</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    手続き完了後、ご利用開始となります。<br />
-                    お子様が安心して過ごせるよう、スタッフ一同でサポートいたします。ようこそSKY KIDSへ！
+                    ようこそSKY KIDSへ！
                   </p>
                 </div>
               </div>
