@@ -258,16 +258,6 @@ export default async function HomePage() {
             </table>
           </div>
 
-          <div className="text-center mt-6">
-            <a
-              href="https://docs.google.com/spreadsheets/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[var(--primary-dark)] underline text-sm hover:no-underline"
-            >
-              詳細な空き状況を見る →
-            </a>
-          </div>
         </div>
       </section>
 
