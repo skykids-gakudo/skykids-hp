@@ -19,7 +19,7 @@ export default function PublicLayout({
           {/* Logo */}
           <Link href="/" className="relative h-16 w-[160px] overflow-hidden">
             <Image
-              src="/images/logo.jpg"
+              src="/images/Logo.png"
               alt="SKY KIDS"
               fill
               sizes="160px"
