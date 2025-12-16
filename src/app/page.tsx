@@ -277,6 +277,9 @@ export default async function HomePage() {
                   <li>・こどもの日イベント</li>
                   <li>・野菜の苗植え（食育）</li>
                 </ul>
+                <div className="mt-3 w-48 h-32 rounded-lg overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1522383225653-ed111181a951?w=400&q=80" alt="桜" className="w-full h-full object-cover" />
+                </div>
               </div>
             </div>
 
@@ -291,6 +294,9 @@ export default async function HomePage() {
                   <li>・夏休み特別プログラム</li>
                   <li>・野菜の収穫</li>
                 </ul>
+                <div className="mt-3 w-48 h-32 rounded-lg overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&q=80" alt="七夕" className="w-full h-full object-cover" />
+                </div>
               </div>
             </div>
 
@@ -304,6 +310,9 @@ export default async function HomePage() {
                   <li>・公園遊び・秋の自然観察</li>
                   <li>・クリスマス会</li>
                 </ul>
+                <div className="mt-3 w-48 h-32 rounded-lg overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1509557965875-b88c97052f0e?w=400&q=80" alt="ハロウィンかぼちゃ" className="w-full h-full object-cover" />
+                </div>
               </div>
             </div>
 
@@ -318,6 +327,9 @@ export default async function HomePage() {
                   <li>・ひな祭り</li>
                   <li>・進級・卒業お祝い</li>
                 </ul>
+                <div className="mt-3 w-48 h-32 rounded-lg overflow-hidden">
+                  <img src="https://images.unsplash.com/photo-1577037927765-54f1a47e9d57?w=400&q=80" alt="ひな祭り" className="w-full h-full object-cover" />
+                </div>
               </div>
             </div>
           </div>
