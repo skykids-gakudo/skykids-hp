@@ -6,19 +6,19 @@ import Link from 'next/link';
 const slides = [
   {
     id: 1,
-    bgColor: 'from-[#7FE7FF] via-[#00CFFF] to-[#0099CC]',
+    image: 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=1600&q=80',
     title: '空色の放課後が、\n子供を育てる。',
     subtitle: '',
   },
   {
     id: 2,
-    bgColor: 'from-[#FFD89B] via-[#FFB347] to-[#FF8C00]',
+    image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1600&q=80',
     title: '',
     subtitle: '',
   },
   {
     id: 3,
-    bgColor: 'from-[#B8E6D8] via-[#98D8C8] to-[#4CAF50]',
+    image: 'https://images.unsplash.com/photo-1544776193-352d25ca82cd?w=1600&q=80',
     title: '',
     subtitle: '',
   },
@@ -46,28 +46,12 @@ export default function HeroSlider() {
             index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0'
           }`}
         >
-          {/* Background with gradient */}
-          <div className={`absolute inset-0 bg-gradient-to-br ${slide.bgColor}`}>
-            {/* Placeholder for real image - shows image number */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-white/10 text-[20rem] font-bold select-none">
-                {slide.id}
-              </div>
-            </div>
-
-            {/* Decorative floating elements */}
-            <div className="absolute top-[10%] left-[5%] w-40 h-40 bg-white/10 rounded-full blur-3xl animate-pulse" />
-            <div className="absolute top-[30%] right-[10%] w-60 h-60 bg-white/10 rounded-full blur-3xl" />
-            <div className="absolute bottom-[20%] left-[15%] w-32 h-32 bg-white/5 rounded-full blur-2xl" />
-            <div className="absolute bottom-[30%] right-[20%] w-48 h-48 bg-white/5 rounded-full blur-3xl" />
-
-            {/* Pattern overlay */}
-            <div
-              className="absolute inset-0 opacity-5"
-              style={{
-                backgroundImage: `radial-gradient(circle at 2px 2px, white 1px, transparent 0)`,
-                backgroundSize: '40px 40px',
-              }}
+          {/* Background with image */}
+          <div className="absolute inset-0">
+            <img
+              src={slide.image}
+              alt=""
+              className="w-full h-full object-cover"
             />
           </div>
 
