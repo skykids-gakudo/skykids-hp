@@ -6,7 +6,7 @@ import Link from 'next/link';
 const slides = [
   {
     id: 1,
-    image: '/images/hero_1.png',
+    image: '/images/skykids_view.jpg',
     title: '空色の放課後が、\n子供を育てる。',
     subtitle: '',
   },
@@ -18,7 +18,7 @@ const slides = [
   },
   {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=1600&q=80',
+    image: '/images/hero_1.png',
     title: '',
     subtitle: '',
   },
