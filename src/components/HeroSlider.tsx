@@ -56,7 +56,7 @@ export default function HeroSlider() {
           </div>
 
           {/* Dark overlay for text readability */}
-          <div className="absolute inset-0 bg-black/10" />
+          <div className={`absolute inset-0 ${index === 0 ? 'bg-black/40' : 'bg-black/10'}`} />
         </div>
       ))}
 
