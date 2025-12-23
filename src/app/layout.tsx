@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "SKY KIDS | スカイキッズ",
   description: "鹿児島県霧島市の児童クラブ SKY KIDS（スカイキッズ）。小学生を対象とした学童保育・一時預かりを行っています。忙しいお母さんお父さんの子育てを応援しています！",
+  icons: {
+    icon: "/images/favicon.png",
+  },
   openGraph: {
     title: "SKY KIDS | スカイキッズ",
     description: "鹿児島県霧島市の児童クラブ SKY KIDS（スカイキッズ）。忙しいお母さんお父さんの子育てを応援しています！",
