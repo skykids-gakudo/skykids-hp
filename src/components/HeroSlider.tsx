@@ -71,7 +71,7 @@ export default function HeroSlider() {
       >
         <div className="relative w-36 md:w-48">
           <img
-            src="/images/now_enrolling.png"
+            src="/images/now_enrolling.webp"
             alt=""
             className="w-full h-auto"
           />

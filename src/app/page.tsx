@@ -30,7 +30,7 @@ export default async function HomePage() {
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
               <img
-                src="/images/skykids_view.jpg"
+                src="/images/skykids_view.webp"
                 alt="SKY KIDS 施設の様子"
                 className="w-full h-full object-cover"
               />
@@ -93,7 +93,7 @@ export default async function HomePage() {
           {/* Skykids Line Illustration */}
           <div className="overflow-hidden flex justify-center mt-6">
             <img
-              src="/images/skykids_yellowline.png"
+              src="/images/skykids_yellowline.webp"
               alt=""
               className="w-[300%] max-w-none h-auto translate-x-7"
             />
@@ -122,13 +122,13 @@ export default async function HomePage() {
           {/* 写真グリッド 2列 */}
           <div className="grid grid-cols-2 gap-4">
             <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
-              <img src="/images/indoor_playground_01.jpg" alt="室内遊び場" className="w-full h-full object-cover" />
+              <img src="/images/indoor_playground_01.webp" alt="室内遊び場" className="w-full h-full object-cover" />
             </div>
             <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
-              <img src="/images/desks.jpg" alt="学習スペース" className="w-full h-full object-cover" />
+              <img src="/images/desks.webp" alt="学習スペース" className="w-full h-full object-cover" />
             </div>
             <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden col-span-2">
-              <img src="/images/children_playtime_06.png" alt="遊びの様子" className="w-full h-full object-cover object-bottom" />
+              <img src="/images/children_playtime_06.webp" alt="遊びの様子" className="w-full h-full object-cover object-bottom" />
             </div>
           </div>
         </div>
@@ -142,25 +142,25 @@ export default async function HomePage() {
           <div className="grid grid-cols-2 gap-4 mb-8">
             <div className="group">
               <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden mb-3 group-hover:shadow-lg transition-shadow">
-                <img src="/images/children_playtime_01.jpg" alt="生活の様子1" className="w-full h-full object-cover" />
+                <img src="/images/children_playtime_01.webp" alt="生活の様子1" className="w-full h-full object-cover" />
               </div>
               <p className="text-center text-base font-medium">今日もひとつできた！</p>
             </div>
             <div className="group">
               <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden mb-3 group-hover:shadow-lg transition-shadow">
-                <img src="/images/children_playtime_02.jpg" alt="生活の様子2" className="w-full h-full object-cover" />
+                <img src="/images/children_playtime_02.webp" alt="生活の様子2" className="w-full h-full object-cover" />
               </div>
               <p className="text-center text-base font-medium">楽しさが学びになる</p>
             </div>
             <div className="group">
               <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden mb-3 group-hover:shadow-lg transition-shadow">
-                <img src="/images/children_playtime_03.jpg" alt="生活の様子3" className="w-full h-full object-cover object-top" />
+                <img src="/images/children_playtime_03.webp" alt="生活の様子3" className="w-full h-full object-cover object-top" />
               </div>
               <p className="text-center text-base font-medium">やさしさがあつまる放課後</p>
             </div>
             <div className="group">
               <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden mb-3 group-hover:shadow-lg transition-shadow">
-                <img src="/images/children_playtime_07.jpg" alt="食育の様子" className="w-full h-full object-cover" />
+                <img src="/images/children_playtime_07.webp" alt="食育の様子" className="w-full h-full object-cover" />
               </div>
               <p className="text-center text-base font-medium">育てる心を育む</p>
             </div>
@@ -295,7 +295,7 @@ export default async function HomePage() {
                   <li>・野菜の収穫</li>
                 </ul>
                 <div className="mt-3 w-48 h-32 rounded-lg overflow-hidden">
-                  <img src="/images/harvest_experience.png" alt="収穫体験" className="w-full h-full object-cover" />
+                  <img src="/images/harvest_experience.webp" alt="収穫体験" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
@@ -311,7 +311,7 @@ export default async function HomePage() {
                   <li>・クリスマス会</li>
                 </ul>
                 <div className="mt-3 w-48 h-32 rounded-lg overflow-hidden">
-                  <img src="/images/Halloween_pumpkins.png" alt="ハロウィンかぼちゃ" className="w-full h-full object-cover" />
+                  <img src="/images/Halloween_pumpkins.webp" alt="ハロウィンかぼちゃ" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
@@ -328,7 +328,7 @@ export default async function HomePage() {
                   <li>・進級・卒業お祝い</li>
                 </ul>
                 <div className="mt-3 w-48 h-32 rounded-lg overflow-hidden">
-                  <img src="/images/hina_matsuri.png" alt="ひな祭り" className="w-full h-full object-cover" />
+                  <img src="/images/hina_matsuri.webp" alt="ひな祭り" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
