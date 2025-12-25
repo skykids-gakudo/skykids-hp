@@ -146,7 +146,7 @@ export default function SettingsManager() {
         <h2 className="text-lg font-bold mb-4">料金案内</h2>
         <div className="space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">入園料</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">入会金</label>
             <input
               type="text"
               value={settings.pricing.enrollmentFee}
@@ -155,7 +155,7 @@ export default function SettingsManager() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">月額保育料（0〜2歳）</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">月額利用料（0〜2歳）</label>
             <input
               type="text"
               value={settings.pricing.monthlyFee0to2}
@@ -164,7 +164,7 @@ export default function SettingsManager() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">月額保育料（3〜5歳）</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">月額利用料（3歳以上）</label>
             <input
               type="text"
               value={settings.pricing.monthlyFee3to5}
@@ -173,7 +173,7 @@ export default function SettingsManager() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">給食費</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">おやつ代</label>
             <input
               type="text"
               value={settings.pricing.mealFee}
@@ -182,7 +182,7 @@ export default function SettingsManager() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">延長保育</label>
+            <label className="block text-sm font-medium text-gray-700 mb-1">延長料金</label>
             <input
               type="text"
               value={settings.pricing.extendedCare}
