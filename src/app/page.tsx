@@ -122,7 +122,7 @@ export default async function HomePage() {
           </div>
 
           {/* 写真 */}
-          <div className="aspect-[16/9] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
+          <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
             <img src="/images/children_playtime_06.webp" alt="遊びの様子" className="w-full h-full object-cover object-bottom" />
           </div>
         </div>
