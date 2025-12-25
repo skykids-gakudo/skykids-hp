@@ -106,7 +106,8 @@ export default async function HomePage() {
           <div className="text-base leading-[1.7] text-gray-700 mb-10">
             <p className="mb-6">
               心配ごとや小さな不安も、どうぞ気軽にご相談ください。<br />
-              私たちは、保護者の皆さまと一緒にお子さまの成長を見守る児童クラブです。
+              私たちは、忙しい保護者の皆さまと一緒に、<br />
+              お子さまの成長を見守る児童クラブです。
             </p>
             <p className="mb-6">
               宿題は、スタッフが声かけをしながら帰宅前に取り組む習慣づくりをサポート。<br />
