@@ -55,7 +55,7 @@ export default async function HomePage() {
                 その子のペースを大切にしたサポートを行っています。
               </p>
               <p className="text-base leading-[1.7] text-gray-700">
-                スタッフ・看護師が在籍しているため、<br />
+                保育士・看護師が在籍しているため、<br />
                 小さなお子さまも安心。<br />
                 初めての預け先としてもご利用いただけます。
               </p>
