@@ -28,7 +28,7 @@ const nextConfig: NextConfig = {
               "default-src 'self'",
               "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
               "style-src 'self' 'unsafe-inline'",
-              "img-src 'self' https://raw.githubusercontent.com data: blob:",
+              "img-src 'self' https://raw.githubusercontent.com https://images.unsplash.com data: blob:",
               "font-src 'self' data:",
               "connect-src 'self' https://api.github.com",
               "frame-ancestors 'none'",
