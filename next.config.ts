@@ -31,6 +31,7 @@ const nextConfig: NextConfig = {
               "img-src 'self' https://raw.githubusercontent.com https://images.unsplash.com data: blob:",
               "font-src 'self' data:",
               "connect-src 'self' https://api.github.com",
+              "frame-src 'self' https://www.google.com https://docs.google.com",
               "frame-ancestors 'none'",
               "base-uri 'self'",
               "form-action 'self'",
