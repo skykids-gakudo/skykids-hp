@@ -408,6 +408,20 @@ export default async function HomePage() {
               </dl>
             </div>
           </div>
+
+          {/* 駐車場 */}
+          <div className="mt-10">
+            <h3 className="font-bold text-lg mb-4 text-center">駐車場完備</h3>
+            <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
+              <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
+                <img src="/images/parkinglots1.jpg" alt="駐車場1" className="w-full h-full object-cover" />
+              </div>
+              <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
+                <img src="/images/parkinglots2.jpg" alt="駐車場2" className="w-full h-full object-cover" />
+              </div>
+            </div>
+            <p className="text-sm text-gray-500 mt-3 text-center">お車でお越しの方もご安心ください</p>
+          </div>
         </div>
       </section>
     </PublicLayout>
