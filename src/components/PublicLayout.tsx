@@ -200,6 +200,7 @@ export default function PublicLayout({
                 <p>〒899-4353</p>
                 <p>鹿児島県霧島市国分向花町8-48</p>
                 <p className="font-bold text-sm text-gray-800 mt-2">TEL: 0995-70-6623</p>
+                <p className="text-[10px] text-gray-500">つながらない場合: 070-7589-7075</p>
                 <p>営業時間: 月〜金 11:00〜18:30 / 土 7:30〜18:30</p>
               </div>
             </div>

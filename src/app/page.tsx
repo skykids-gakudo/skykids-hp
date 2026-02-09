@@ -388,14 +388,17 @@ export default async function HomePage() {
                 </div>
                 <div className="flex gap-3">
                   <dt className="font-bold w-20 shrink-0">電話</dt>
-                  <dd className="text-gray-700">0995-70-6623</dd>
+                  <dd className="text-gray-700">
+                    0995-70-6623
+                    <span className="block text-xs text-gray-500">つながらない場合: 070-7589-7075</span>
+                  </dd>
                 </div>
                 <div className="flex gap-3">
                   <dt className="font-bold w-20 shrink-0">営業時間</dt>
                   <dd className="text-gray-700">
                     月〜金 11:00〜18:30<br />
                     土 7:30〜18:30
-                    <span className="block text-xs text-gray-500 mt-1">※延長利用で最大19:00まで</span>
+                    <span className="block text-xs text-gray-500 mt-1">※延長は19:00まで。それ以降はご相談ください</span>
                   </dd>
                 </div>
                 <div className="flex gap-3">
