@@ -123,7 +123,7 @@ export default async function HomePage() {
 
           {/* 写真 */}
           <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
-            <img src="/images/playinninjinpark.png" alt="公園で遊ぶ様子" className="w-full h-full object-cover" />
+            <img src="/images/playinninjinpark.webp" alt="公園で遊ぶ様子" className="w-full h-full object-cover" />
           </div>
         </div>
       </section>
@@ -154,7 +154,7 @@ export default async function HomePage() {
             </div>
             <div className="group">
               <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden mb-3 group-hover:shadow-lg transition-shadow">
-                <img src="/images/playwithboardgame.png" alt="木製のボードゲームで遊ぶ子供たち" className="w-full h-full object-cover" />
+                <img src="/images/playwithboardgame.webp" alt="木製のボードゲームで遊ぶ子供たち" className="w-full h-full object-cover" />
               </div>
               <p className="text-center text-base font-medium">木製のボードゲームで遊ぶ子供たち</p>
             </div>
@@ -180,7 +180,7 @@ export default async function HomePage() {
           </p>
           <div className="max-w-2xl mx-auto">
             <img
-              src="/images/snacks.jpg"
+              src="/images/snacks.webp"
               alt="バイキング形式のおやつ"
               className="w-full rounded-2xl shadow-md"
             />
@@ -309,7 +309,7 @@ export default async function HomePage() {
                   <li>・夏休み特別プログラム</li>
                 </ul>
                 <div className="mt-3 w-48 h-32 rounded-lg overflow-hidden">
-                  <img src="/images/play5.jpg" alt="夏の遊び" className="w-full h-full object-cover" />
+                  <img src="/images/play5.webp" alt="夏の遊び" className="w-full h-full object-cover" />
                 </div>
               </div>
             </div>
@@ -435,10 +435,10 @@ export default async function HomePage() {
             <h3 className="font-bold text-lg mb-4 text-center">駐車場完備</h3>
             <div className="grid grid-cols-2 gap-4 max-w-2xl mx-auto">
               <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
-                <img src="/images/parkinglots1.jpg" alt="駐車場1" className="w-full h-full object-cover object-top" />
+                <img src="/images/parkinglots1.webp" alt="駐車場1" className="w-full h-full object-cover object-top" />
               </div>
               <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
-                <img src="/images/parkinglots2.jpg" alt="駐車場2" className="w-full h-full object-cover" />
+                <img src="/images/parkinglots2.webp" alt="駐車場2" className="w-full h-full object-cover" />
               </div>
             </div>
             <p className="text-sm text-gray-500 mt-3 text-center">お車でお越しの方もご安心ください</p>
