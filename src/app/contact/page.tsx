@@ -41,8 +41,8 @@ export default function ContactPage() {
             <p className="text-gray-500 text-sm mt-2">
               受付時間: 月〜金 11:00〜18:30 / 土 7:30〜18:30
             </p>
-            <p className="text-gray-500 text-xs mt-2">
-              つながらない場合: <a href="tel:070-7589-7075" className="underline hover:text-[var(--primary-color)]">070-7589-7075</a>
+            <p className="text-gray-600 text-sm mt-2">
+              つながらない場合: <a href="tel:070-7589-7075" className="font-bold underline hover:text-[var(--primary-color)]">070-7589-7075</a>
             </p>
           </article>
 
