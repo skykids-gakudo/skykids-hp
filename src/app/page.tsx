@@ -171,6 +171,23 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* おやつのご紹介 */}
+      <section id="snacks" className="py-16 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-4">
+          <h2 className="text-2xl font-bold text-center mb-4">おやつのご紹介</h2>
+          <p className="text-base text-center text-gray-600 mb-8">
+            毎日バイキング形式で好きなおやつを選べます
+          </p>
+          <div className="max-w-2xl mx-auto">
+            <img
+              src="/images/snacks.jpg"
+              alt="バイキング形式のおやつ"
+              className="w-full rounded-2xl shadow-md"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* 6. 入会案内（フロー＋料金表） */}
       <section id="enrollment" className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4">
