@@ -123,7 +123,7 @@ export default async function HomePage() {
 
           {/* 写真 */}
           <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden">
-            <img src="/images/children_playtime_06.webp" alt="遊びの様子" className="w-full h-full object-cover object-bottom" />
+            <img src="/images/playinninjinpark.png" alt="公園で遊ぶ様子" className="w-full h-full object-cover" />
           </div>
         </div>
       </section>
@@ -154,9 +154,9 @@ export default async function HomePage() {
             </div>
             <div className="group">
               <div className="aspect-[4/3] rounded-2xl shadow-[0_4px_12px_rgba(0,0,0,0.1)] overflow-hidden mb-3 group-hover:shadow-lg transition-shadow">
-                <img src="/images/playinninjinpark.png" alt="公園で遊ぶ様子" className="w-full h-full object-cover" />
+                <img src="/images/playwithboardgame.png" alt="木製のボードゲームで遊ぶ子供たち" className="w-full h-full object-cover" />
               </div>
-              <p className="text-center text-base font-medium">走って遊んで元気いっぱい</p>
+              <p className="text-center text-base font-medium">木製のボードゲームで遊ぶ子供たち</p>
             </div>
           </div>
 
