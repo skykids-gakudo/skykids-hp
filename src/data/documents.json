@@ -47,6 +47,14 @@
       "description": "入会時にご記入のうえ、ご提出いただく児童情報記入用紙です。",
       "url": "https://drive.google.com/file/d/1t1qOaaabBj2hjs6G6EiViEVEfQADfw-b/view?usp=sharing",
       "order": 8
+    },
+    {
+      "id": "mlj7x0vl",
+      "category": "入会関連",
+      "name": "食物アレルギー調査票",
+      "description": "お子さまの食物アレルギーの有無および対応方法を確認するための調査票です。",
+      "url": "https://drive.google.com/file/d/1rXghWSBHA9_5WU6kTjzTt-HNWi-PjenG/view?usp=sharing",
+      "order": 9
     }
   ]
 }
