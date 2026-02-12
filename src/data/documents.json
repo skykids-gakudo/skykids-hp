@@ -63,6 +63,14 @@
       "description": "当児童クラブの活動記録として撮影した写真・動画をSNS・ホームページ・印刷物等へ掲載することについて同意を確認する書面です。",
       "url": "https://drive.google.com/file/d/1jh721QW5WzKkwYdi_K-x4x-kSr-8cn1s/view?usp=sharing",
       "order": 10
+    },
+    {
+      "id": "mlj83sfr",
+      "category": "その他",
+      "name": "料金表",
+      "description": "当児童クラブの基本利用料、延長料金、オプション費用等の詳細を記載した料金一覧です。",
+      "url": "https://drive.google.com/file/d/11Cfg6WiO2gCdpc8xQ6ZqyIb4b8xE6cS4/view?usp=sharing",
+      "order": 11
     }
   ]
 }
