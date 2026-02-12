@@ -3,7 +3,7 @@ import PublicLayout from '@/components/PublicLayout';
 
 export const metadata = {
   title: '一日の流れ | SKY KIDS',
-  description: 'SKY KIDSでの一日の過ごし方をご紹介します。',
+  description: 'SKY KIDSの一日の流れ。下校後の学習タイム・おやつ・自由遊びなど、放課後の過ごし方をご紹介します。',
 };
 
 const weekdaySchedule = [

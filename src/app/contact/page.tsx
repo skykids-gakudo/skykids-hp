@@ -3,7 +3,7 @@ import PublicLayout from '@/components/PublicLayout';
 
 export const metadata = {
   title: 'お問い合わせ | SKY KIDS',
-  description: 'SKY KIDSへのお問い合わせページです。',
+  description: '鹿児島県霧島市の児童クラブSKY KIDSへのお問い合わせ。見学申し込み・入会相談はお電話またはフォームからお気軽にどうぞ。',
 };
 
 export default function ContactPage() {

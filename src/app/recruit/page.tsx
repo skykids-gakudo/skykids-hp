@@ -4,7 +4,7 @@ import { getSettings } from '@/lib/dataFetcher';
 
 export const metadata = {
   title: '児童募集 | SKY KIDS',
-  description: 'SKY KIDSの児童募集要項です。',
+  description: 'SKY KIDSの児童募集要項。対象学年・利用料金・入会の流れをご案内。霧島市で学童保育・一時預かりをお探しの方へ。',
 };
 
 export default async function RecruitPage() {

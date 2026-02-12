@@ -4,7 +4,7 @@ import PublicLayout from '@/components/PublicLayout';
 
 export const metadata = {
   title: 'お知らせ | SKY KIDS',
-  description: 'SKY KIDSからのお知らせ一覧ページです。',
+  description: 'SKY KIDSからのお知らせ。イベント情報・休業日・施設に関する最新情報をお届けします。',
 };
 
 export default async function NewsPage() {

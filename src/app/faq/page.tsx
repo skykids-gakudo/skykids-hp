@@ -4,7 +4,7 @@ import FAQSection from '@/components/FAQSection';
 
 export const metadata = {
   title: 'よくある質問 | SKY KIDS',
-  description: 'SKY KIDSによくいただくご質問をまとめました。',
+  description: 'SKY KIDSのよくある質問。利用料金・送迎・持ち物・一時預かりなど、保護者の方からよくいただくご質問にお答えします。',
 };
 
 export default function FAQPage() {
