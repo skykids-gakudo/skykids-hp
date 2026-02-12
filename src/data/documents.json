@@ -1,14 +1,6 @@
 {
   "documents": [
     {
-      "id": "2",
-      "category": "入会関連",
-      "name": "重要事項説明書",
-      "description": "入会前にご確認ください",
-      "url": "",
-      "order": 2
-    },
-    {
       "id": "3",
       "category": "届出関連",
       "name": "欠席届",
