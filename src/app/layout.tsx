@@ -61,6 +61,18 @@ export default function RootLayout({
             })
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "SKY KIDS",
+              "alternateName": "スカイキッズ",
+              "url": "https://skykids-hp.vercel.app"
+            })
+          }}
+        />
       </head>
       <body className="antialiased">
         {children}
